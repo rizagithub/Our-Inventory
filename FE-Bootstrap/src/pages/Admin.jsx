@@ -42,7 +42,7 @@ function Admin() {
 
   const handleLogout = () => {
     localStorage.removeItem("token");
-    navigateTo("/login");
+    navigateTo("/");
   };
 
   return (
